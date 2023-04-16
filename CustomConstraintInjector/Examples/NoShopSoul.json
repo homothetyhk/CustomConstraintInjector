@@ -1,0 +1,19 @@
+﻿{
+  "Name": "No Shop Soul",
+  "Constraints": [
+    {
+      "Target": {
+        "match": "ITEM_WILDCARD",
+        "name": "Soul_Totem*"
+      },
+      "Type": "NOTFLEXIBLECOUNT"
+    },
+    {
+      "Target": {
+        "match": "ITEM_WILDCARD",
+        "name": "Soul_Refill*"
+      },
+      "Type": "NOTFLEXIBLECOUNT"
+    }
+  ]
+}

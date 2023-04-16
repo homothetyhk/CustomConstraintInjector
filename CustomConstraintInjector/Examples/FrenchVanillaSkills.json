@@ -1,0 +1,383 @@
+﻿{
+  "Name": "French Vanilla Skills",
+  "Constraints": [
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Mantis_Claw"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Fungal Wastes"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Mantis_Claw"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Mantis_Claw"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Mothwing_Cloak"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Greenpath"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Mothwing_Cloak"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Mothwing_Cloak"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Shade_Cloak"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Ancient Basin"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Shade_Cloak"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Shade_Cloak"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Monarch_Wings"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Ancient Basin"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Monarch_Wings"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Monarch_Wings"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Crystal_Heart"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Crystal Peak"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Crystal_Heart"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Crystal_Heart"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Isma's_Tear"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Royal Waterways"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Isma's_Tear"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Isma's_Tear"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dream_Nail"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Resting Grounds"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dream_Nail"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Dream_Nail"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dream_Gate"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Resting Grounds"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dream_Gate"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Seer"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Awoken_Dream_Nail"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Resting Grounds"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Awoken_Dream_Nail"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Seer"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Vengeful_Spirit"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Forgotten Crossroads"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Vengeful_Spirit"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Vengeful_Spirit"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Shade_Soul"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "City of Tears"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Shade_Soul"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Shade_Soul"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Desolate_Dive"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "City of Tears"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Desolate_Dive"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Desolate_Dive"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Descending_Dark"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Crystal Peak"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Descending_Dark"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Descending_Dark"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Howling_Wraiths"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Fog Canyon"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Howling_Wraiths"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Howling_Wraiths"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Abyss_Shriek"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Ancient Basin"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Abyss_Shriek"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Abyss_Shriek"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Cyclone_Slash"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Howling Cliffs"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Cyclone_Slash"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Cyclone_Slash"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Great_Slash"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Greenpath"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Great_Slash"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Great_Slash"
+      ]
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dash_Slash"
+      },
+      "Type": "ATMAPAREA",
+      "Params": [
+        "Kingdom's Edge"
+      ],
+      "Strict": true
+    },
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Dash_Slash"
+      },
+      "Type": "NOTLOCATION",
+      "Params": [
+        "Dash_Slash"
+      ]
+    }
+  ]
+}

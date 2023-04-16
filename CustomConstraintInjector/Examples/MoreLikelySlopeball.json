@@ -1,0 +1,13 @@
+﻿{
+  "Name": "More Likely Slopeball",
+  "PriorityEdits": [
+    {
+      "Target": {
+        "match": "ITEM",
+        "name": "Vengeful_Spirit"
+      },
+      "Op": "MIN",
+      "Param": 0.0
+    }
+  ]
+}
