@@ -9,6 +9,17 @@ namespace CustomConstraintInjector
         readonly object _pattern;
         readonly bool _item;
 
+        [JsonProperty("match")]
+        MatchingType __match => (_item, _pattern) switch
+        {
+            (false, Regex) => MatchingType.LOCATION_REGEX,
+            (true, Regex) => MatchingType.ITEM_REGEX,
+            (false, string) => MatchingType.LOCATION,
+            (true, string) or _ => MatchingType.ITEM,
+        };
+
+        [JsonProperty("name")] string __name => _pattern.ToString();
+
         [JsonConstructor]
         public TargetMatch(MatchingType match, string name)
         {

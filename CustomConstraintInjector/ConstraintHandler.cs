@@ -44,8 +44,6 @@ namespace CustomConstraintInjector
                         {
                             foreach (CustomConstraint c in pack.Constraints)
                             {
-                                LogHelper.Log(c);
-
                                 if (c.Target.TryMatchItem(i))
                                 {
                                     cs ??= new();
@@ -64,8 +62,6 @@ namespace CustomConstraintInjector
                         {
                             foreach (CustomConstraint c in pack.Constraints)
                             {
-                                LogHelper.Log(c);
-
                                 if (c.Target.TryMatchLocation(l))
                                 {
                                     cs ??= new();
@@ -76,16 +72,6 @@ namespace CustomConstraintInjector
                         if (cs is not null) _locationConstraints.Add(l, cs);
                     }
                 }
-            }
-            LogHelper.Log("Item constraints:");
-            foreach (var kvp in _itemConstraints)
-            {
-                LogHelper.Log($"{kvp.Key}: {kvp.Value.Count}");
-            }
-            LogHelper.Log("Location constraints:");
-            foreach (var kvp in _locationConstraints)
-            {
-                LogHelper.Log($"{kvp.Key}: {kvp.Value.Count}");
             }
         }
 
